@@ -3,6 +3,7 @@ This api shows you how to display information from a MySQL database on a Google 
 The map in this api displays two kinds of markers to differentiate between the location of restaurants and bars respectively. A database in MySQL stores information about the individual marker locations like the type of place (whether it's a restaurant or a bar), its name, address and geographic coordinates. The map retrieves this information from the database, through an XML file that acts as an intermediary between the database and the map. You can use PHP statements to export marker information from the database to an XML file.
 
 Click a marker on the map below to display an info window with the location name and address. The markers have the labels 'R' or 'B', and they show you the locations of restaurants and bars respectively.
+![image](https://user-images.githubusercontent.com/53494300/115075111-4669f700-9f03-11eb-8cff-8db1f8604f33.png)
 
 Table in database:
 CREATE TABLE `markers` (
