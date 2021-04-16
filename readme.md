@@ -5,6 +5,7 @@ The map in this api displays two kinds of markers to differentiate between the l
 Click a marker on the map below to display an info window with the location name and address. The markers have the labels 'R' or 'B', and they show you the locations of restaurants and bars respectively.
 ![image](https://user-images.githubusercontent.com/53494300/115075111-4669f700-9f03-11eb-8cff-8db1f8604f33.png)
 
+
 Table in database:
 CREATE TABLE `markers` (
   `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
@@ -14,6 +15,7 @@ CREATE TABLE `markers` (
   `lng` FLOAT( 10, 6 ) NOT NULL ,
   `type` VARCHAR( 30 ) NOT NULL
 ) ENGINE = MYISAM ;
+
 
 tutorial:
 https://developers.google.com/maps/documentation/javascript/mysql-to-maps
